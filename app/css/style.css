@@ -578,7 +578,9 @@ footer {
     text-transform: uppercase;
     font-family: "pt_sansregular", Verdana, Geneva, sans-serif; }
     .deploy__link:hover {
-      opacity: 0.8; } }
+      opacity: 0.8; }
+  .deploy__dd-menu {
+    display: none !important; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {

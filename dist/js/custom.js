@@ -67,8 +67,6 @@ $(document).ready(function(){
 		);
 
 	/*dropdown menu--two*/
-	$(window).resize(function() {
-		if ( $(window).width() > 768 ) {
 			$('.dd-deploy').hover(
 				function(){
 					$(this).children('.deploy__dd-menu--two').slideDown(200);
@@ -77,8 +75,6 @@ $(document).ready(function(){
 					$(this).children('.deploy__dd-menu--two').slideUp(200);
 				}
 				);
-		} 
-	});
 
 	/*slider*/
 	$('.slider').slick({

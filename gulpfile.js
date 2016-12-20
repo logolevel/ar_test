@@ -90,7 +90,7 @@ gulp.task('watch', ['browser-sync', 'css-libs', 'scripts'], function() {
 });
 /*gulp build*/
 gulp.task('build',['clean', 'img', 'sass', 'scripts'], function() {
-	var buildCss = gulp.src('app/css/style.css')
+	var buildCss = gulp.src('app/css/style.min.css')
 		.pipe(gulp.dest('dist/css'));
 
 	var buildFonts = gulp.src('app/fonts/**/*')
